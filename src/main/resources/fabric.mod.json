@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "easycatch",
+  "version": "${version}",
+  "name": "Easy Catch",
+  "description": "Easier pearl catching for singleplayer training: bigger effective hitbox for ender pearls and wind charges.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["easycatch.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

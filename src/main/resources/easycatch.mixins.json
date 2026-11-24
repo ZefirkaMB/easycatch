@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.easycatch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ProjectileMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
